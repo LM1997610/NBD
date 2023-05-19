@@ -32,8 +32,8 @@ class FCFS:
             desired = dizionario[i][2] - dizionario[i][0]
             # difference between Exit time and Arrival of the processes
 
-            if desired < 0: 
-                desired = dizionario[i][1]
+            #if desired < 0: 
+            #    desired = dizionario[i][1]
             # if negative there is no queue ahead, so TAT = Burst_time
             # perche WT = TAT - Burst_time deve essere  0
             # not sure 
