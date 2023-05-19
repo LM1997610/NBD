@@ -82,7 +82,7 @@ class FCFS:
         # KEY = job_id --> VALUES = Time_delta, Burst_time, Exit_time, Turn_around_time, Waiting_time
 
         df = pd.DataFrame.from_dict(results, orient='index').reset_index()
-        df.columns = ["Job_id", "arrival_time", "execution_time", "exit_time", "turn_around", "waiting"]
+        df.columns = ["Job_id", "Time_deltas", "execution_time", "exit_time", "turn_around", "waiting"]
 
 
         return df
