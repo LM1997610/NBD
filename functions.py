@@ -4,6 +4,7 @@ import pandas as pd
 class FCFS:
 
     ################################################################
+    
     def exit_time(dizionario : dict): 
         # cumulative execution times
 
