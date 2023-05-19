@@ -84,7 +84,8 @@ class FCFS:
 
         df = pd.DataFrame.from_dict(results, orient='index').reset_index()
         df.columns = ["Job_id", "Time_deltas", "execution_time", "exit_time", "turn_around", "waiting"]
-
+        
+        print("\n Mean Waiting Time: ", df["waiting"].mean())
 
         return df
 
