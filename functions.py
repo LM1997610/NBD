@@ -3,6 +3,7 @@ import pandas as pd
 
 class FCFS:
 
+    ################################################################
     def exit_time(dizionario : dict): 
         # cumulative execution times
 
@@ -19,7 +20,7 @@ class FCFS:
         new_diz = {v[0]:(*v[1], x) for v, x in zip(dizionario.items(), times)}
         
         return new_diz
-
+    
 
     def turn_around_times(dizionario : dict):   #
         
@@ -58,9 +59,8 @@ class FCFS:
         
         return new_diz
 
-
-
-    def FCFS_scheduling(queue : list, µ = 0.1):   # queue is list of dict
+    
+    def Scheduling(queue : list, µ = 0.1):   # queue is list of dict
 
         arrival_time_tasks = [int(queue[i]["Arrival_Time"]) for i in range(len(queue))]
         running_time_tasks = [(queue[i]["CPU"]/ µ)*1000 for i in range(len(queue))]      # from seconds to milliseconds
