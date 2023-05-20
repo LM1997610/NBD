@@ -69,7 +69,7 @@ class FCFS:
         dict_values = list(zip(arrival_time_tasks, running_time_tasks))
 
         #d = {int(queue[key]["Job_ID"]): dict_values[key] for key in range(len(queue))}
-        d = {str(servers_queues[0][key]["Job_ID"])+ "_" + str(servers_queues[0][key]["Task_ID"]): dict_values[key] for key in range(len(servers_queues[0]))}
+        d = {str(queue[key]["Job_ID"])+ "_" + str(queue[key]["Task_ID"]): dict_values[key] for key in range(len(queue))}
         d = dict(sorted(d.items(), key=lambda item: item[1])) # sort by time arrival (not sure if needed)
         # KEY = job_id --> VALUES = Arrival_Time, Burst_time
 
