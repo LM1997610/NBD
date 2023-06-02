@@ -16,15 +16,15 @@ class make_plots:
         axarr[0].set_ylim((0,1))
         axarr[0].grid(linewidth=0.4)
         axarr[0].set_xlabel('Server_ID', fontsize=13)
-        axarr[0].set_ylabel('Utilization', fontsize=13)
+        axarr[0].set_ylabel('Utilization\n', fontsize=13)
         axarr[0].axhline(mean( ut_coeffs), color='r', linestyle=':')
         axarr[0].set_title("\nBaseline implementation\n", fontsize=16)
 
         axarr[1].bar(range(64), c_ut_coeffs, color='orange')
         axarr[1].set_ylim((0,1))
         axarr[1].grid(linewidth=0.4)
-        axarr[1].set_xlabel('ServerID', fontsize=13)
-        axarr[1].set_ylabel('Utilization', fontsize=13)
+        axarr[1].set_xlabel('Server_ID', fontsize=13)
+        axarr[1].set_ylabel('Utilization\n', fontsize=13)
         axarr[1].axhline(mean(c_ut_coeffs), color='r', linestyle=':')
         axarr[1].set_title("\nCustom implementation\n", fontsize=16)
 
