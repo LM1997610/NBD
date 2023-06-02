@@ -2,6 +2,12 @@
 Homework two for [**Networking for Big Data and Laboratory**](https://web.uniroma1.it/netlab/networking-big-data-and-laboratory) course at Sapienza University of Rome,\
 academyc year 2022-2023.
 
+Group composition:
+
+- Gian Alvin Guico : 2033024
+- Leonardo Di Nino : 1919479
+- Luca Mazzucco : 1997610
+
 ## Challenge #2:
 
 Consider a *computational cluster* composed of a **job dispatcher device** and **$N$ servers**,\
