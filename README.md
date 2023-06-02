@@ -8,6 +8,8 @@ Group composition:
 - Leonardo Di Nino : 1919479
 - Luca Mazzucco : 1997610
 
+Final report [here](https://nbviewer.org/github/LM1997610/Networking-for-Big-Data/blob/main/NBD_CH2_Report.pdf)
+
 ## Challenge #2:
 
 Consider a *computational cluster* composed of a **job dispatcher device** and **$N$ servers**,\
