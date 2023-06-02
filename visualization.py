@@ -1,8 +1,8 @@
 
-
-from matplotlib import pyplot as plt
-import matplotlib.gridspec as gridspec
 from numpy import mean, sort, arange
+from matplotlib import pyplot as plt
+#import matplotlib.gridspec as gridspec
+
 
 class make_plots:
 
