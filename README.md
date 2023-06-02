@@ -9,4 +9,4 @@ Group composition:
 - Luca Mazzucco : 1997610
 
 Final report [here](https://nbviewer.org/github/LM1997610/Networking-for-Big-Data/blob/main/NBD_CH2_Report.pdf)
-
+Main [script](https://github.com/LM1997610/Networking-for-Big-Data/blob/main/NBD_CH2.ipynb)
