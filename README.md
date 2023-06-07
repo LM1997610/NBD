@@ -8,5 +8,6 @@ Group composition:
 - Leonardo Di Nino : 1919479
 - Luca Mazzucco : 1997610
 
+Challenge [outline](https://github.com/LM1997610/Networking-for-Big-Data/blob/main/problem_outline.md)\
 Final [report](https://nbviewer.org/github/LM1997610/Networking-for-Big-Data/blob/main/NBD_CH2_Report.pdf)\
 Main [script](https://github.com/LM1997610/Networking-for-Big-Data/blob/main/NBD_CH2.ipynb)
